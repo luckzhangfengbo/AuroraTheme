@@ -1,9 +1,9 @@
 {
-  "name": "Aurora-Theme",
-  "displayName": "Aurora Theme",
+  "name": "AuroraTheme",
+  "displayName": "Aurora__Theme",
   "description": "一款 Sci-Fi 风格的 VSCode 主题",
   "version": "0.0.1",
-  "publisher": "zhangfengbo",
+  "publisher": "zhangfengbotheme",
   "engines": {
     "vscode": "^1.79.2"
   },
@@ -65,7 +65,7 @@
     ],
     "commands": [
       {
-        "command": "Aurora-Theme.selectVariant",
+        "command": "AuroraTheme.selectVariant",
         "title": "Aurora Theme: Select Theme Variant"
       }
     ]

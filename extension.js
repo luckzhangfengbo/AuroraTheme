@@ -11,7 +11,7 @@ const vscode = require('vscode');
 function activate(context) {
 	console.log('Aurora Theme is now active!');
 
-	let disposable = vscode.commands.registerCommand('Aurora-Theme.selectVariant', async () => {
+	let disposable = vscode.commands.registerCommand('AuroraTheme.selectVariant', async () => {
 		try {
 			const variants = [
 				{ label: 'Cyber', theme: 'Aurora Dark - Cyber', description: 'Cyberpunk inspired theme with blue accents' },
