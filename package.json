@@ -1,0 +1,89 @@
+{
+  "name": "Aurora-Theme",
+  "displayName": "Aurora Theme",
+  "description": "一款 Sci-Fi 风格的 VSCode 主题",
+  "version": "0.0.1",
+  "publisher": "zhangfengbo",
+  "engines": {
+    "vscode": "^1.79.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luckzhangfengbo/AuroraTheme"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "aurora",
+    "sci-fi"
+  ],
+  "icon": "images/icon.png",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aurora Dark - Cyber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-cyber.json"
+      },
+      {
+        "label": "Aurora Dark - Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-neon.json"
+      },
+      {
+        "label": "Aurora Dark - Matrix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-matrix.json"
+      },
+      {
+        "label": "Aurora Dark - Code Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-code-pro.json"
+      },
+      {
+        "label": "Aurora Dark - Midnight Coder",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-midnight-coder.json"
+      },
+      {
+        "label": "Aurora Dark - One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-one-dark.json"
+      },
+      {
+        "label": "Aurora Dark - GitHub",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-github-dark.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "Aurora-Theme.selectVariant",
+        "title": "Aurora Theme: Select Theme Variant"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.79.2",
+    "@types/mocha": "^10.0.8",
+    "@types/node": "20.x",
+    "eslint": "^8.56.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "vsce": "^2.15.0"
+  }
+}

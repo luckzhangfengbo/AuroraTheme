@@ -1,0 +1,116 @@
+{
+  "name": "Aurora Dark - Midnight Coder",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0F111A",
+    "editor.foreground": "#A6ACCD",
+    "activityBar.background": "#090B10",
+    "activityBar.foreground": "#84FFFF",
+    "sideBar.background": "#0C0E15",
+    "sideBar.foreground": "#717CB4",
+    "statusBar.background": "#090B10",
+    "statusBar.foreground": "#84FFFF",
+    "titleBar.activeBackground": "#090B10",
+    "titleBar.activeForeground": "#717CB4",
+    
+    "editor.lineHighlightBackground": "#1A1C25",
+    "editor.selectionBackground": "#1F2233",
+    "editor.selectionHighlightBackground": "#1F223350",
+    "editorCursor.foreground": "#84FFFF",
+    "editorLineNumber.foreground": "#3B3F5C",
+    "editorLineNumber.activeForeground": "#84FFFF",
+    "editorIndentGuide.background": "#1A1C25",
+    "editorIndentGuide.activeBackground": "#2A2D3D",
+    
+    "list.activeSelectionBackground": "#1F2233",
+    "list.hoverBackground": "#1A1C25",
+    "tab.activeBackground": "#0F111A",
+    "tab.inactiveBackground": "#090B10",
+    "panel.background": "#0C0E15",
+    "focusBorder": "#84FFFF50"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#89DDFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#82AAFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "entity.name.type.class",
+        "entity.other.inherited-class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#C792EA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#A6ACCD"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "constant",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#464B5D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Documentation",
+      "scope": [
+        "comment.block.documentation",
+        "comment.block.javadoc"
+      ],
+      "settings": {
+        "foreground": "#5C6773",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+} 

@@ -1,0 +1,115 @@
+{
+  "name": "Aurora Dark - Code Pro",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#D4D4D4",
+    "activityBar.background": "#181818",
+    "activityBar.foreground": "#569CD6",
+    "sideBar.background": "#1C1C1C",
+    "sideBar.foreground": "#9B9B9B",
+    "statusBar.background": "#181818",
+    "statusBar.foreground": "#569CD6",
+    "titleBar.activeBackground": "#181818",
+    "titleBar.activeForeground": "#9B9B9B",
+    
+    "editor.lineHighlightBackground": "#2A2A2A",
+    "editor.selectionBackground": "#264F78",
+    "editor.selectionHighlightBackground": "#264F7850",
+    "editorCursor.foreground": "#569CD6",
+    "editorLineNumber.foreground": "#6E6E6E",
+    "editorLineNumber.activeForeground": "#569CD6",
+    "editorIndentGuide.background": "#2A2A2A",
+    "editorIndentGuide.activeBackground": "#404040",
+    
+    "list.activeSelectionBackground": "#37373D",
+    "list.hoverBackground": "#2A2A2A",
+    "tab.activeBackground": "#1E1E1E",
+    "tab.inactiveBackground": "#181818",
+    "panel.background": "#1C1C1C",
+    "focusBorder": "#569CD650"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#569CD6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#DCDCAA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "entity.name.type.class",
+        "entity.other.inherited-class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "constant",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#4FC1FF"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6A9955",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Type Declarations",
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    }
+  ]
+} 

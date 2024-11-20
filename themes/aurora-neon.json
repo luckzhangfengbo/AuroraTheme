@@ -1,0 +1,159 @@
+{
+  "name": "Aurora Dark - Neon",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2D2A2E",
+    "editor.foreground": "#F8F8F2",
+    "activityBar.background": "#1E1B1F",
+    "activityBar.foreground": "#FF79C6",
+    "sideBar.background": "#242225",
+    "sideBar.foreground": "#939293",
+    "statusBar.background": "#1E1B1F",
+    "statusBar.foreground": "#FF79C6",
+    "titleBar.activeBackground": "#1E1B1F",
+    "titleBar.activeForeground": "#939293",
+    
+    "editor.lineHighlightBackground": "#3A373C",
+    "editor.selectionBackground": "#41394C",
+    "editor.selectionHighlightBackground": "#41394C",
+    "editorCursor.foreground": "#FF79C6",
+    "editorLineNumber.foreground": "#5B595C",
+    "editorLineNumber.activeForeground": "#FF79C6",
+    "editorIndentGuide.background": "#3A373C",
+    "editorIndentGuide.activeBackground": "#4A474C",
+    
+    "list.activeSelectionBackground": "#41394C",
+    "list.hoverBackground": "#3A373C",
+    "tab.activeBackground": "#2D2A2E",
+    "tab.inactiveBackground": "#1E1B1F",
+    "panel.background": "#242225",
+    "focusBorder": "#FF79C650"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords and Control",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator",
+        "keyword.other.special-method",
+        "keyword.other.new",
+        "storage.type",
+        "storage.modifier",
+        "storage.control"
+      ],
+      "settings": {
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Variables and Parameters",
+      "scope": [
+        "variable",
+        "variable.parameter",
+        "variable.other.object",
+        "variable.language",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#F8F8F2"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function",
+        "meta.method-call entity.name.function",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "Classes, Types, Interfaces",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.name.namespace",
+        "entity.name.scope-resolution",
+        "entity.other.inherited-class",
+        "support.class",
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "#8BE9FD",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.template",
+        "string.quoted.other",
+        "string.regexp",
+        "string.interpolated"
+      ],
+      "settings": {
+        "foreground": "#F1FA8C"
+      }
+    },
+    {
+      "name": "Numbers and Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.character.numeric",
+        "constant",
+        "constant.language",
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#6272A4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "punctuation.definition",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.section",
+        "meta.brace"
+      ],
+      "settings": {
+        "foreground": "#939293"
+      }
+    },
+    {
+      "name": "Property",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.type.property-name",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#8BE9FD"
+      }
+    }
+  ]
+} 
