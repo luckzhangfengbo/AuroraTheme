@@ -1,6 +1,8 @@
 # 主题插件
 
-![gif](images/20241120_155733.gif)
+## Auror Dark-Code Pro
+![Uploading image.png…]()
+
 
 # 功能
 - 支持7款主题
