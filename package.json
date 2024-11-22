@@ -2,7 +2,7 @@
   "name": "AuroraTheme",
   "displayName": "AuroraWaterTheme",
   "description": "一款 Sci-Fi 风格的 VSCode 主题",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "zhangfengbotheme",
   "engines": {
     "vscode": "^1.79.2"
@@ -61,6 +61,16 @@
         "label": "Aurora Dark - GitHub",
         "uiTheme": "vs-dark",
         "path": "./themes/aurora-github-dark.json"
+      },
+      {
+        "label": "Aurora Dark - Back",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-back.json"
+      },
+      {
+        "label": "Aurora Dark - White",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-white.json"
       }
     ],
     "commands": [

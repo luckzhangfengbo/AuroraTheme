@@ -20,7 +20,10 @@ function activate(context) {
 				{ label: 'Code Pro', theme: 'Aurora Dark - Code Pro', description: 'Professional coding theme with clear contrast' },
 				{ label: 'Midnight Coder', theme: 'Aurora Dark - Midnight Coder', description: 'Perfect theme for late night coding' },
 				{ label: 'One Dark', theme: 'Aurora Dark - One Dark', description: 'Classic Atom-inspired dark theme' },
-				{ label: 'GitHub Dark', theme: 'Aurora Dark - GitHub', description: 'GitHub-style dark theme' }
+				{ label: 'GitHub Dark', theme: 'Aurora Dark - GitHub', description: 'GitHub-style dark theme' },
+				{ label: 'Back', theme: 'Aurora Dark - Back', description: 'Dark theme inspired by the popular VSCode theme' },
+				{ label: 'White', theme: 'Aurora Dark - White', description: 'Dark theme with a touch of purple' }
+				
 			];
 
 			const selected = await vscode.window.showQuickPick(variants, {
@@ -50,6 +53,7 @@ function activate(context) {
 	});
 
 	context.subscriptions.push(disposable);
+	
 }
 
 /**
