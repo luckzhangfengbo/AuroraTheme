@@ -5,7 +5,7 @@
   "version": "0.0.2",
   "publisher": "zhangfengbotheme",
   "engines": {
-    "vscode": "^1.79.2"
+    "vscode": "^1.70.2"
   },
   "repository": {
     "type": "git",
@@ -88,7 +88,7 @@
     "publish": "vsce publish"
   },
   "devDependencies": {
-    "@types/vscode": "^1.79.2",
+    "@types/vscode": "^1.70.2",
     "@types/mocha": "^10.0.8",
     "@types/node": "20.x",
     "eslint": "^8.56.0",
