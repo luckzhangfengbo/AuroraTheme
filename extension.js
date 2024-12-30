@@ -22,8 +22,9 @@ function activate(context) {
 				{ label: 'One Dark', theme: 'Aurora Dark - One Dark', description: 'Classic Atom-inspired dark theme' },
 				{ label: 'GitHub Dark', theme: 'Aurora Dark - GitHub', description: 'GitHub-style dark theme' },
 				{ label: 'Back', theme: 'Aurora Dark - Back', description: 'Dark theme inspired by the popular VSCode theme' },
-				{ label: 'White', theme: 'Aurora Dark - White', description: 'Dark theme with a touch of purple' }
-				
+				{ label: 'White', theme: 'Aurora Dark - White', description: 'Dark theme with a touch of purple' },
+				{ label: 'Solarized', theme: 'Aurora Light - Solarized', description: 'Light theme with solarized colors' },
+				{ label: 'Pastel', theme: 'Aurora Light - Pastel', description: 'Soft pastel colors on a light background' }
 			];
 
 			const selected = await vscode.window.showQuickPick(variants, {

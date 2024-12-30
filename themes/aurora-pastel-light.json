@@ -1,0 +1,58 @@
+{
+    "name": "Aurora Light - Pastel",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FFFFFF",
+        "editor.foreground": "#4A4A4A",
+        "editorCursor.foreground": "#FF6F61",
+        "editor.lineHighlightBackground": "#F0F0F0",
+        "editor.selectionBackground": "#B3E5FC",
+        "editor.inactiveSelectionBackground": "#E0F7FA",
+        "editorIndentGuide.background": "#E0E0E0",
+        "editorIndentGuide.activeBackground": "#FF6F61"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#B0BEC5"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#FFAB91"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#4FC3F7"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#FF6F61"
+            }
+        },
+        {
+            "scope": "storage",
+            "settings": {
+                "foreground": "#FF8A65"
+            }
+        },
+        {
+            "scope": "constant",
+            "settings": {
+                "foreground": "#F06292"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#4FC3F7"
+            }
+        }
+    ]
+} 

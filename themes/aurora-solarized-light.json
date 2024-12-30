@@ -1,0 +1,58 @@
+{
+    "name": "Aurora Light - Solarized",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FDF6E3",
+        "editor.foreground": "#657B83",
+        "editorCursor.foreground": "#D30102",
+        "editor.lineHighlightBackground": "#EEE8D5",
+        "editor.selectionBackground": "#93A1A1",
+        "editor.inactiveSelectionBackground": "#EDEDED",
+        "editorIndentGuide.background": "#EEE8D5",
+        "editorIndentGuide.activeBackground": "#D30102"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#93A1A1"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#2AA198"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#268BD2"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#859900"
+            }
+        },
+        {
+            "scope": "storage",
+            "settings": {
+                "foreground": "#B58900"
+            }
+        },
+        {
+            "scope": "constant",
+            "settings": {
+                "foreground": "#CB4B16"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#268BD2"
+            }
+        }
+    ]
+} 
