@@ -14,6 +14,7 @@ function activate(context) {
 	let disposable = vscode.commands.registerCommand('AuroraTheme.selectVariant', async () => {
 		try {
 			const variants = [
+				{ label: 'Rainbow', theme: 'Aurora Dark - Rainbow', description: 'Colorful rainbow theme with vibrant accents' },
 				{ label: 'Cyber', theme: 'Aurora Dark - Cyber', description: 'Cyberpunk inspired theme with blue accents' },
 				{ label: 'Neon', theme: 'Aurora Dark - Neon', description: 'Vibrant neon colors on dark background' },
 				{ label: 'Matrix', theme: 'Aurora Dark - Matrix', description: 'Classic matrix-style green on black' },
@@ -22,9 +23,7 @@ function activate(context) {
 				{ label: 'One Dark', theme: 'Aurora Dark - One Dark', description: 'Classic Atom-inspired dark theme' },
 				{ label: 'GitHub Dark', theme: 'Aurora Dark - GitHub', description: 'GitHub-style dark theme' },
 				{ label: 'Back', theme: 'Aurora Dark - Back', description: 'Dark theme inspired by the popular VSCode theme' },
-				{ label: 'White', theme: 'Aurora Dark - White', description: 'Dark theme with a touch of purple' },
-				{ label: 'Solarized', theme: 'Aurora Light - Solarized', description: 'Light theme with solarized colors' },
-				{ label: 'Pastel', theme: 'Aurora Light - Pastel', description: 'Soft pastel colors on a light background' }
+				{ label: 'White', theme: 'Aurora Dark - White', description: 'Dark theme with a touch of purple' }
 			];
 
 			const selected = await vscode.window.showQuickPick(variants, {
