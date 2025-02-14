@@ -15,7 +15,37 @@ Auror Dark-White
 
 ## 0.0.3 
 - 增加到具有9款主题
+## Auror Dark-Code Pro
+![image](images/Auror%20Dark-Code%20Pro.jpg)
+
+## Auror Dark-Cyber
+![image](images/Auror%20Dark-Cyber.jpg)
+
+## Auror Dark-Github
+![image](images/Auror%20Dark-Github.jpg)
+
+## Auror Dark-Matrix
+![image](images/Auror%20Dark-Matrix.jpg)
+
+## Auror Dark-Midnight Coder
+![image](images/Auror%20Dark-Midnight%20Coder.jpg)
+
+## Auror Dark-Neon
+![image](images/Auror%20Dark-Neon.jpg)
+
+## Auror Dark-One Dark
+![image](images/Auror%20Dark-One%20Dark.jpg)
+
+## Auror Dark-Back
+![image](images/Auror%20Dark-Back.jpg)
 
 ## 0.0.4 
 - 添加一款多拼色的主题
+## Aurora Dark - Rainbow
+![image](images/Aurora%20Dark-Rainbow.jpg)
 - 总主题数量达到10个
+
+## 0.0.5
+- 添加一款浅色多拼色主题
+## Aurora Bright - Refresh
+![image](images/Aurora%20Bright-Refresh.jpg)

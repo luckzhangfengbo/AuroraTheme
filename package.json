@@ -2,7 +2,7 @@
   "name": "AuroraTheme",
   "displayName": "AuroraWaterTheme",
   "description": "一款 Sci-Fi 风格的 VSCode 主题",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "zhangfengbotheme",
   "engines": {
     "vscode": "^1.70.2"
@@ -31,6 +31,11 @@
           "label": "Aurora Dark - Rainbow",
           "uiTheme": "vs-dark",
           "path": "./themes/aurora-rainbow.json"
+      },
+      {
+        "label": "Aurora Bright - Refresh",
+        "uiTheme": "vs",
+        "path": "./themes/aurora-bright.json"
       },
       {
         "label": "Aurora Dark - Cyber",

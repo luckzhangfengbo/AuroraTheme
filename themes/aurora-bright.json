@@ -1,0 +1,80 @@
+{
+    "name": "Aurora Bright - Refresh",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FAFAFA",
+        "editor.foreground": "#333333",
+        "activityBar.background": "#FFEB3B",
+        "activityBar.foreground": "#212121",
+        "activityBar.inactiveForeground": "#757575",
+        "activityBarBadge.background": "#FF5722",
+        "activityBarBadge.foreground": "#FFFFFF",
+        "activityBar.border": "#FFEB3B",
+        "sideBar.background": "#FFFFFF",
+        "sideBar.foreground": "#212121",
+        "sideBarTitle.foreground": "#1976D2",
+        "sideBarSectionHeader.background": "#EEEEEE",
+        "sideBarSectionHeader.foreground": "#FF5722",
+        "statusBar.background": "#2196F3",
+        "statusBar.foreground": "#FFFFFF",
+        "statusBar.debuggingBackground": "#FF9800",
+        "statusBar.noFolderBackground": "#4CAF50",
+        "titleBar.activeBackground": "#2196F3",
+        "titleBar.activeForeground": "#FFFFFF",
+        "titleBar.inactiveBackground": "#E3F2FD",
+        "titleBar.inactiveForeground": "#757575",
+        "tab.activeBackground": "#FFFFFF",
+        "tab.activeForeground": "#2196F3",
+        "tab.inactiveBackground": "#F5F5F5",
+        "tab.inactiveForeground": "#757575",
+        "editorGroupHeader.tabsBackground": "#F5F5F5",
+        "button.background": "#4CAF50",
+        "button.foreground": "#FFFFFF",
+        "button.hoverBackground": "#66BB6A",
+        "list.activeSelectionBackground": "#1976D2",
+        "list.activeSelectionForeground": "#FFFFFF",
+        "list.hoverBackground": "#E3F2FD",
+        "list.hoverForeground": "#2196F3",
+        "panel.background": "#FFFFFF",
+        "panelTitle.activeBorder": "#FF9800",
+        "panelTitle.activeForeground": "#2196F3",
+        "panelTitle.inactiveForeground": "#757575"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#9E9E9E"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": ["string", "string.quoted"],
+            "settings": {
+                "foreground": "#FF4081"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {
+                "foreground": "#FF5722"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#4CAF50"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": ["variable", "support.variable"],
+            "settings": {
+                "foreground": "#2196F3"
+            }
+        }
+    ]
+}

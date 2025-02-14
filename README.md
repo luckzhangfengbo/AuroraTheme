@@ -28,9 +28,13 @@
 ## Aurora Dark - Rainbow
 ![image](images/Aurora%20Dark-Rainbow.jpg)
 
+## Aurora Bright - Refresh
+![image](images/Aurora%20Bright-Refresh.jpg)
+
 # 功能
-- 支持10款主题
-- 增加一款多拼色的主题
+- 支持11款主题
+- 增加一款深色多拼色的主题
+- 增加一款浅色多拼色的主题
 
 # 使用
 windows
