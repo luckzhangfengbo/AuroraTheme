@@ -1,55 +1,79 @@
-# 主题插件
+# Aurora Theme
 
-## Auror Dark-Code Pro
-![image](images/Auror%20Dark-Code%20Pro.jpg)
+Aurora Theme 是一款优雅的 VS Code 主题集合插件，提供多种精心设计的深色和浅色主题，满足不同开发场景的视觉需求。
 
-## Auror Dark-Cyber
-![image](images/Auror%20Dark-Cyber.jpg)
+## 主题预览
 
-## Auror Dark-Github
-![image](images/Auror%20Dark-Github.jpg)
+### 深色主题
+- **Auror Dark-Code Pro**
+![Auror Dark-Code Pro](images/Auror%20Dark-Code%20Pro.jpg)
 
-## Auror Dark-Matrix
-![image](images/Auror%20Dark-Matrix.jpg)
+- **Auror Dark-Cyber**
+![Auror Dark-Cyber](images/Auror%20Dark-Cyber.jpg)
 
-## Auror Dark-Midnight Coder
-![image](images/Auror%20Dark-Midnight%20Coder.jpg)
+- **Auror Dark-Github**
+![Auror Dark-Github](images/Auror%20Dark-Github.jpg)
 
-## Auror Dark-Neon
-![image](images/Auror%20Dark-Neon.jpg)
+- **Auror Dark-Matrix**
+![Auror Dark-Matrix](images/Auror%20Dark-Matrix.jpg)
 
-## Auror Dark-One Dark
-![image](images/Auror%20Dark-One%20Dark.jpg)
+- **Auror Dark-Midnight Coder**
+![Auror Dark-Midnight Coder](images/Auror%20Dark-Midnight%20Coder.jpg)
 
-## Auror Dark-Back
-![image](images/Auror%20Dark-Back.jpg)
-## Auror Dark-White
-![image](images/Auror%20Dark-White.jpg)
-## Aurora Dark - Rainbow
-![image](images/Aurora%20Dark-Rainbow.jpg)
+- **Auror Dark-Neon**
+![Auror Dark-Neon](images/Auror%20Dark-Neon.jpg)
 
-## Aurora Bright - Refresh
-![image](images/Aurora%20Bright-Refresh.jpg)
+- **Auror Dark-One Dark**
+![Auror Dark-One Dark](images/Auror%20Dark-One%20Dark.jpg)
 
-# 功能
-- 支持11款主题
-- 增加一款深色多拼色的主题
-- 增加一款浅色多拼色的主题
+- **Auror Dark-Back**
+![Auror Dark-Back](images/Auror%20Dark-Back.jpg)
 
-# 使用
-windows
--  ctrl+shift+p 搜索  Aurora Theme 按下回车之后选择主题在按下回车
-mac
--  cmd+shift+p 搜索  Aurora Theme 按下回车之后选择主题在按下回车
+- **Auror Dark-White**
+![Auror Dark-White](images/Auror%20Dark-White.jpg)
 
-# 微软下载插件地址
+- **Aurora Dark - Rainbow**（深色多拼色主题）
+![Aurora Dark-Rainbow](images/Aurora%20Dark-Rainbow.jpg)
 
+### 浅色主题
+- **Aurora Bright - Refresh**（浅色多拼色主题）
+![Aurora Bright-Refresh](images/Aurora%20Bright-Refresh.jpg)
+
+## 功能
+- 支持11款精心设计的主题（10款深色主题和1款浅色主题）
+- 提供左侧 Activity Bar 图标，一键访问所有主题
+- 直观的主题选择视图，分类展示深色和浅色主题
+- 当前选中主题显示勾选标记，便于识别
+- 支持通过命令面板快速切换主题
+
+## 使用方法
+
+### 方法一：使用左侧 Activity Bar 图标（推荐）
+1. 在 VS Code 左侧 Activity Bar 找到并点击 Aurora Theme 图标
+2. 在打开的主题视图中，查看深色和浅色主题分类
+3. 直接点击任意主题即可切换
+
+### 方法二：通过命令面板
+- **Windows**: `Ctrl+Shift+P`，搜索 "Aurora Theme"，选择主题后按回车
+- **macOS**: `Cmd+Shift+P`，搜索 "Aurora Theme"，选择主题后按回车
+
+## 安装
+
+### 通过 VS Code 扩展市场
+1. 在 VS Code 中打开扩展面板（左侧最下方图标或 `Ctrl+Shift+X`）
+2. 搜索 "AuroraWaterTheme"
+3. 点击安装按钮
+
+### 微软市场链接
 https://marketplace.visualstudio.com/search?term=AuroraWaterTheme&target=VSCode&category=All%20categories&sortBy=Relevance
 
 
-# 下面是其中一块代码的解释
 
-'''
+## 主题配置说明
+
+以下是主题配置文件的核心结构示例，展示了如何定义主题的UI元素颜色和代码语法高亮：
+
+```json
 {
     "name": "Aurora Dark - Rainbow",  // 主题的名称
     "type": "dark",  // 主题类型，"dark" 表示暗色主题
@@ -130,5 +154,4 @@ https://marketplace.visualstudio.com/search?term=AuroraWaterTheme&target=VSCode&
         }
     ]
 }
-
-'''
+```

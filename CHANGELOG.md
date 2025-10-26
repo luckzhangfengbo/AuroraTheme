@@ -49,3 +49,10 @@ Auror Dark-White
 - 添加一款浅色多拼色主题
 ## Aurora Bright - Refresh
 ![image](images/Aurora%20Bright-Refresh.jpg)
+
+## 0.0.6
+- 在左侧Activity Bar添加主题图标，提供直观的主题访问入口
+- 实现主题选择视图，分类展示深色和浅色主题
+- 当前选中主题显示勾选标记，便于识别
+- 优化主题切换体验，支持点击直接切换
+- 扩展图标更新为专用的theme.svg

@@ -2,7 +2,7 @@
   "name": "AuroraTheme",
   "displayName": "AuroraWaterTheme",
   "description": "一款 Sci-Fi 风格的 VSCode 主题",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "zhangfengbotheme",
   "engines": {
     "vscode": "^1.70.2"
@@ -97,8 +97,43 @@
       {
         "command": "AuroraTheme.selectVariant",
         "title": "Aurora Theme: Select Theme Variant"
+      },
+      {
+        "command": "AuroraTheme.showThemesView",
+        "title": "Show Aurora Themes",
+        "icon": {
+          "light": "./images/theme.svg",
+          "dark": "./images/theme.svg"
+        }
       }
-    ]
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "AuroraTheme.refreshThemes",
+          "when": "view == AuroraTheme.themesView",
+          "group": "navigation"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "aurora-themes-explorer",
+          "title": "Aurora Themes",
+          "icon": "./images/theme.svg"
+        }
+      ]
+    },
+    "views": {
+      "aurora-themes-explorer": [
+        {
+          "id": "AuroraTheme.themesView",
+          "name": "Themes",
+          "visibility": "visible"
+        }
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint .",
